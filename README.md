@@ -10,8 +10,8 @@ After cloning the repo, please do the following:
 7. In `run_wsi.sh`, change the `input_dir` to the path of the folder containing the WSI images.
 8. By default, the output will be saved in the `preds` folder. You can change this in `run_wsi.sh` by changing the `output_dir` variable.
 9. By default, a `cache` folder will be created in the repo folder and will contain the intermediate results. It will be deleted after the script finishes. It requires a lot of space, so make sure you have enough space in your machine (at least 100 GB).
-10. Run the script `./run_wsi.sh`.
-11. By default, the script uses a single GPU (GPU 0). If you want to use a different GPU, `gpu` variable in `run_wsi.sh` to the GPU number you want to use. For example, if you want to use GPUs 0 and 1, change the `gpu` variable to `"0,1"`.
+10. By default, the script uses a single GPU (GPU 0). If you want to use a different GPU, `gpu` variable in `run_wsi.sh` to the GPU number you want to use. For example, if you want to use GPUs 0 and 1, change the `gpu` variable to `"0,1"`.
+11. Run the script `./run_wsi.sh`.
 
 ### Errors:
 
